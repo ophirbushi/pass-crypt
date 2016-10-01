@@ -1,0 +1,19 @@
+{
+  "name": "pass-crypt",
+  "version": "1.0.0",
+  "description": "password encryption",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "password",
+    "encrypt",
+    "decrypt"
+  ],
+  "author": "Ophir Bushinsky",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
