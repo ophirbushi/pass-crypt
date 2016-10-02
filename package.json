@@ -2,10 +2,10 @@
   "name": "pass-crypt",
   "version": "1.0.0",
   "description": "password encryption",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "test",
-    "start": "node index.js"
+    "start": "tsc & node build/index.js"
   },
   "keywords": [
     "password",
@@ -17,5 +17,10 @@
   "dependencies": {
     "ejs": "^2.5.2",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "express-serve-static-core": "^0.1.1",
+    "serve-static": "^1.11.1",
+    "typescript": "^2.0.3"
   }
 }
