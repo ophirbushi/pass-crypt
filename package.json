@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "start": "node build/index.js",
-    "postinstall": "typings install & tsc"
+    "postinstall": "typings install && tsc"
   },
   "keywords": [
     "password",
