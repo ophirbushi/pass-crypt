@@ -1,5 +1,4 @@
 node_modules
 .vscode
 typings
-build
 npm-debug.log
